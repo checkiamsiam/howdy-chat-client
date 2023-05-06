@@ -1,0 +1,64 @@
+@import "react-modern-drawer/dist/index.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131c21;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #394045;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main-header,
+.aside-header {
+  background-color: #2a2f32;
+}
+.main-footer {
+  background-color: #1e2428;
+}
+.search-bar,
+.message,
+.aside-messages {
+  background-color: #131c21;
+}
+.search-bar input,
+.message-active {
+  background-color: #323739;
+}
+.single-message {
+  background-color: #262d31;
+}
+
+.incoming-svg {
+  color: #262d31;
+  transform: scaleX(-1);
+}
+
+.message-input {
+  background-color: #33383b;
+}
+
+.main-messages {
+  background: #0e1921f0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
